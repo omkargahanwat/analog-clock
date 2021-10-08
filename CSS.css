@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 400px; 
+    background: url(IMG.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour{
+    position: absolute;
+    left: 195px;
+    top: 90px;
+    height: 107px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50px;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+#minut{
+    position: absolute;
+    left: 196px;
+    top: 75px;
+    height: 123px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50px;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+#second{
+    position: absolute;
+    left: 196px;
+    top: 65px;
+    height: 130px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50px;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
